@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<!--
+	Linear by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>简历</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<script>
+		function save_msgs()
+		{
+		    if (document.getElementById("message").value =="")
+		    {
+     			alert("请输入内容！");	
+            }	
+			else
+            {
+				document.getElementById("show_msgs").innerHTML="";
+		        document.getElementById("show_msgs").innerHTML=document.getElementById("message").value+"  "+Date();	
+			}			
+		}
+		</script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		
+	</head>
+	<body class="homepage">
+
+	<!-- Header -->
+		<div id="header">
+			<div id="nav-wrapper"> 
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="active"><a href="index.html">主页</a></li>
+						<li><a href="left-sidebar.html">阅读</a></li>
+						<li><a href="right-sidebar.html">摄影</a></li>
+						<li><a href="no-sidebar.html">了解更多</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">简历</a></h1>
+					<span class="tag">——苏杨</span>
+				</div>
+			</div>
+		</div>
+
+	<!-- Featured -->
+		<div id="featured">
+			<div class="container">
+				<header align="center">
+					<h2>求职意向和简单自我评价</h2>
+					<p>by suyang</p>
+				</header>
+				<p align="left">&emsp;&emsp;欢迎来到<strong>苏杨</strong>的简历。我是一名<a href="http://www.cau.edu.cn/">中国农业大学</a>在校生，目前有意应聘遥感相关公司的实习生，本人乐观向上，热爱探索 ，且具有坚持不懈的刻苦学习精神，我相信我一定能胜任这份工作。</p>
+				<hr />
+				<div class="row">
+					<section class="4u">
+						<span class="pennant"><span class="fa fa-briefcase"></span></span>
+						<h3>教育背景</h3>
+						<p align="left">2015.9-至今就读于中国农业大学地理信息科学系<br/>修习课程：定量遥感、土地信息管理、网页设计</p>
+						<a href="#" class="button button-style1">Read More</a>
+					</section>
+					<section class="4u">
+						<span class="pennant"><span class="fa fa-lock"></span></span>
+						<h3>个人能力</h3>
+						<p align="left">具备团队合作经验，在校时，与同学一起参加国创项目<br/>具备一定计算机基础<br/>具备一定GIS软件操作能力</p>
+						<a href="#" class="button button-style1">Read More</a>
+					</section>
+					<section class="4u">
+						<span class="pennant"><span class="fa fa-globe"></span></span>
+						<h3>个人资料</h3>
+						<p >
+						    <ul style="list-style-type:circle" >
+						        <li>性    别：女</li>
+                                <li>年    龄：21</li>
+                                <li>籍    贯：重庆奉节</li>
+								<li>学    历：本科</li>
+								<li>政治面貌：共青团员</li>
+							</ul>
+						</p>
+						<a href="#" class="button button-style1">Read More</a>
+					</section>
+
+				</div>
+			</div>
+		</div>
+
+	<!-- Main -->
+		<div id="main">
+			<div id="content" class="container">
+
+				<div class="row">
+					<section class="6u">
+						<a href="#" class="image full"><img src="images/pic01.jpg" alt=""></a>
+						<header>
+							<h2>社会实践与实习</h2>
+						</header>
+						<p>曾参与过学校组织的暑期社会实践</p>
+					</section>				
+					<section class="6u">
+						<a href="#" class="image full"><img src="images/pic02.jpg" alt=""></a>
+						<header>
+							<h2>兴趣爱好</h2>
+						</header>
+						<p>运动、看小说</p>
+					</section>				
+				</div>
+				<hr/>
+				<div class="message-board"  >
+				    <header >
+				        <h2 align="left">欢迎留言</h2>
+					</header >
+			        <p  id="post" >
+                        <textarea id="message"  rows="10" cols="100%"></textarea> 
+						<br/>
+						<button onclick="save_msgs()">提交留言</button>
+                    </p> 
+					<p id="show_msgs"></p>
+			    </div>
+			</div>
+			
+			
+		</div>
+
+	<!-- Tweet -->
+		<div id="tweet">
+			<div class="container">
+				<section>
+					<blockquote>&ldquo;无问风雨，无问未来，路在脚下。&rdquo;</blockquote>
+				</section>
+			</div>
+		</div>
+
+	<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<section>
+					<header>
+						<h2>联系方式</h2>
+						<span class="byline">如有意向，可通过以下方式联系我：</span><span>E-mail:1433910681@qq.com</span>
+					</header>
+					<ul class="contact">
+						<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+						<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+						<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
+						<li><a href="#" class="fa fa-tumblr"><span>Google+</span></a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+
+	</body>
+</html>
