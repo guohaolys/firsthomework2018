@@ -2240,7 +2240,8 @@ html.no-csstransitions .home-content__main {
 .timeline__block {
     position: relative;
     padding-left: 8rem;
-    min-height: 28.8rem;
+  //  min-height: 28.8rem;
+ // min-height: 25rem;
 }
 
 .timeline__bullet {
@@ -2353,8 +2354,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-works {
-    padding-top: 15rem;
-    padding-bottom: 15.6rem;
+    padding-top: 13rem;
+//    padding-bottom: 5rem;
     background-color: #f1f1f1;
     position: relative;
 }
